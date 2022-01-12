@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "wordle-solver"
+version = "0.1.0"
+description = "An example of using Google OR-Tools on the Wordle word guessing game"
+authors = ["dalan <863286+dalanmiller@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+ortools = "^9.2.9972"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
